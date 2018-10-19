@@ -10,7 +10,7 @@ use GuzzleHttp\Client;
 class GuzzleUtil
 {
     const URI = 'https://api.github.com/';
-    const TOKEN = '01eaf5a3433ffc2673b754af8be95e1a90746fe9';
+    const TOKEN = '';
 
     public static function doRequest($url) {
         $client = new Client([
